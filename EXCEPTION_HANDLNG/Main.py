@@ -36,8 +36,6 @@ class ShoppingCart:
         self.applying_discount()
         print(f"Total: ${self.cart_quantity * self.price}")
         print("Checkout completed.")
-
-# Example usage
 cart = ShoppingCart(item_quantity=5, price=100)
 cart.checkout()
 
