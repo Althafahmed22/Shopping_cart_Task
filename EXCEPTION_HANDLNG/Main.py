@@ -17,7 +17,6 @@ class ShoppingCart:
             print("Please enter a valid number for quantity.")
         finally:
             print("......................")
-
     def applying_discount(self):
         try:
             discount_code = input("Enter discount code: ")
